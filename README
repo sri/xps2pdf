@@ -1,0 +1,14 @@
+Converts from Microsoft's XPS format to PDF.
+This uses the Ghostscript program ghostpdl to
+do the conversion.
+
+How it works
+============
+ $ ruby xps2pdf.rb [... XPS files]
+
+It'll download ghostpdl program, compile it &
+convert all the XPS input files. Output it
+written to FILE.pdf (input is FILE.xps).
+
+Tested on Mac OS X 10.6.7.
+Require Ruby 1.9.2.
