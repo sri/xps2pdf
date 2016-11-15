@@ -7,7 +7,7 @@
 # Usage: ruby xps2pdf.rb [XPS files or dirs]
 
 def main
-  url      = 'http://ghostscript.googlecode.com/files/ghostpdl-9.02.tar.bz2'
+  url      = 'http://downloads.ghostscript.com/public/old-gs-releases/ghostpdl-9.02.tar.bz2'
   tmp      = "/tmp/xps2pdf.tmp"
   bzipfile = File.basename(url)
   dirname  = bzipfile.gsub /[.]tar[.]bz2/, ''
